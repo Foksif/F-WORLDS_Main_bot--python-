@@ -7,7 +7,7 @@ intents = disnake.Intents.all()
 
 activities = [
     disnake.Activity(type=disnake.ActivityType.watching, name="By Foks_f"),
-    disnake.Activity(type=disnake.ActivityType.watching, name="Version 0.1 [alfa]")
+    disnake.Activity(type=disnake.ActivityType.watching, name="Version 1.1.4 [alfa]")
 ]
 
 bot = commands.Bot(command_prefix="f!", intents=intents, test_guilds=[1157195772115292252])
